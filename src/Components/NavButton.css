@@ -1,0 +1,27 @@
+
+.navContainer{
+    position: relative;
+   
+}
+.nav__button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+.nav__dropdown{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.nav__dropdown > img{
+   background-size: contain;
+}
