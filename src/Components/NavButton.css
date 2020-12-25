@@ -10,6 +10,8 @@
     background-color: white;
     cursor: pointer;
 }
+
+
 .nav__dropdown{
     position: absolute;
     right: 0;
@@ -20,8 +22,16 @@
     width: 400px;
     height: 500px;
     cursor: pointer;
+    overflow: hidden;
+    
 }
 
 .nav__dropdown > img{
-   background-size: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.nav__dropdownContainer{
+    padding-top: 3px;
 }

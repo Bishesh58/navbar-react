@@ -16,9 +16,12 @@ function NavButton({title, img}) {
                     </div>
                
                 {isShown && (
-                        <div className="nav__dropdown">
+                    <div className="nav__dropdownContainer">
+                         <div className="nav__dropdown">
                           <img src={img} alt=""/>
                         </div>
+                    </div>
+                       
                     )
                 }
            </div>
